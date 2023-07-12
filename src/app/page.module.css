@@ -17,6 +17,26 @@
   margin: 0 auto;
 }
 
+.footer {
+  height: 120px;
+  width: 100vw;
+  background-color: rgb(66, 70, 74);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: white;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
 .flex {
   display: flex;
   align-items: flex-start;

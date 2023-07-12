@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Profile from "./components/Profile";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         <Experience />
         <Education />
       </main>
-      <footer>Footer</footer>
+      <Footer />
     </>
   );
 }
